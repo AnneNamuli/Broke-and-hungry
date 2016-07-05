@@ -1,0 +1,40 @@
+body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 62.5%;
+	background-color: #E04343;
+}
+
+.container{
+	max-width: 700px;
+	margin: auto;
+
+}
+
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
+	border-radius: 100px !important;
+    border: 1px solid white !important;
+    background-color: white !important;
+}
+
+.ui-slider-horizontal {
+	height: 10px !important;
+}
+/*.ui-slider, .ui-slider-horizontal, .ui-widget, .ui-widget-content, .ui-corner-all{
+	height: 0.2em;
+}
+
+.ui-slider-handle, .ui-state-default, .ui-corner-all{
+	background-color: white;
+	border-radius: 23px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background-color: white;
+}
